@@ -1,0 +1,9 @@
+nums = [10, 25, 5, 80, 45]
+
+largest = nums[0]
+
+for num in nums:
+    if num > largest:
+        largest = num
+
+print("Largest number:", largest)
